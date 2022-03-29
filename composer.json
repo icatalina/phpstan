@@ -1,0 +1,21 @@
+{
+  "name": "demo/demo",
+  "license": "proprietary",
+  "autoload": {
+    "psr-0": {
+      "": [
+        "lib"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "1.6.x-dev"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}
